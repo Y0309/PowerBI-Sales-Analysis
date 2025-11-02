@@ -7,7 +7,7 @@ This Power BI project analyzes global sales, profit, and return performance from
 ---
 
 ## Objective
-Build an interactive Power BI dashboard to visualize key performance indicators and discover insights from the Global Superstore dataset.
+The goal of this project was to build an interactive Power BI dashboard to track company performance and find improvement areas.  
 
 ---
 
@@ -27,12 +27,20 @@ Includes three related tables:
 - Overall Return Rate: 8%  
 
 ---
+## Challenges & How I Solved Them
+| Challenge | How It Was Solved |
+|------------|------------------|
+| The data contained multiple related tables (Orders, Returns, People). | Built proper relationships using Order ID and Region fields in the Power BI model. |
+| Needed to calculate different types of return rates. | Created two separate DAX measures — one for overall rate, one by region. |
+| Wanted clean, consistent visuals for comparison. | Used filters, bar charts, and aligned visuals to compare across year and region. |
+| Data had inconsistent formatting (dates, numbers). | Fixed issues in Power Query before loading into the data model. |
 
+---
 ## Key Insights
 
 ### Global Overview
 - Total sales reached $13M, with profits increasing each year.  
-- Strongest markets: US, Europe, and Asia-Pacific.  
+- Strongest markets are US, Europe, and Asia-Pacific.  
 - Technology category achieved the highest profit margin.  
 - Return rate remained low at 8%, indicating stable operations.
 
@@ -50,17 +58,18 @@ Includes three related tables:
 
 ## Recommendations
 - Focus marketing on high-profit regions such as Asia Pacific and Europe.  
-- Review return processes in Asia Pacific to reduce losses.  
+- Review return processes in Asia Pacific to reduce losses. 
 - Recognize top-performing sales representatives.  
-- Expand Technology category promotions to sustain profit growth.
+- Promote Technology products more to maintain profit growth.
 
 ---
 
 ## Tools and Skills
 - Power Query for data cleaning and transformations  
 - DAX for calculated measures  
-- Data modeling and relationship building  
+- Data modeling and relationship building 
 - Dashboard design and visualization
+- Business interpretation of analytical results
 
 Example of a simple DAX formula used:
 
