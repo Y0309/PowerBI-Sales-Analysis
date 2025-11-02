@@ -1,4 +1,4 @@
-# Power BI — Global Sales & Returns Analysis Dashboard
+# Global Sales & Returns Analysis Dashboard
 
 This Power BI project analyzes global sales, profit, and return performance from 2014–2017 across different regions, categories, and representatives.  
 
@@ -13,7 +13,7 @@ The goal of this project was to build an interactive Power BI dashboard to track
 
 ## Dataset
 **Global Superstore (2014–2017)**  
-Includes three related tables:
+Tables:
 - Orders: Product, sales, profit, region, and category data  
 - Returns: Returned orders and regions  
 - People: Sales representatives  
