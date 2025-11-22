@@ -2,7 +2,7 @@
 
 This Power BI project analyzes global sales, profit, and return performance from 2014–2017 across different regions, categories, and representatives.  
 
-**Live Dashboard:** [View on Power BI](https://bit.ly/powerbi_project_sales_analysis)
+**Live Dashboard:** [View on Power BI](https://app.powerbi.com/view?r=eyJrIjoiNmQ0ZGNmMjktODI1NC00Mzc2LTk0YjItMzllMTE3ZmM5NTcyIiwidCI6IjM0NTMxMzE4LTcwMTEtNGZkNC04N2YwLWE0MzgxNmM0OWJkMCJ9&pageName=d66c1e042c8cb38512cc)
 
 ---
 
